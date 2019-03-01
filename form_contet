@@ -1,0 +1,17 @@
+Albino's Forms
+
+###DADOS###
+Nome: VARCHAR
+Idade:
+Registro:
+Email:
+Senha:
+
+####QUESTIONARIO###
+
+Desde Quando vc se considera albino? INT
+Quantas vezes você cultua o albinos por semana? INT
+Você se considera albino? SELECT(Sim/Não)
+Em uma escala de 0 à 10, quanto você odeia os veganos? SELECT (0-10)
+
+
