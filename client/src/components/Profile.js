@@ -55,7 +55,7 @@ class Profile extends Component {
               </tr>
               <tr>
                 <td>Idade</td>
-                <td>{this.state.email}</td>
+                <td>{this.state.idade}</td>
               </tr>
               <tr>
                 <td>Você é albino desde:</td>
