@@ -10,7 +10,7 @@ from flask_jwt_extended import (create_access_token)
 
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:0000@localhost/form'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://kados:0000@172.17.0.3/form'
 
 app.config['JWT_SECRET_KEY'] = 'secret'
 
@@ -105,4 +105,4 @@ def login():
     return result
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0', port=5000)
